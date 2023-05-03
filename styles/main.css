@@ -1,0 +1,46 @@
+html, body {
+  font-size: 18px;
+  line-height: 1.3;
+  font-family: helvetica, sans serif;
+  background-color: lavender;
+}
+
+section{
+  margin-left:10rem;
+  margin-right:10rem;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto
+}
+
+img {
+  float: right;
+  width: 350px;
+  border-radius: 10%;
+  background-size: auto 5rem;
+}
+
+.navLinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navLinks li {
+  display: inline-block;
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+.navLinks a:focus, .navLinks a:hover {
+  text-decoration: underline;
+}
